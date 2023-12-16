@@ -1,6 +1,7 @@
 {
     "C_Cpp.errorSquiggles": "disabled",
     "files.associations": {
-        "monty.h": "c"
+        "monty.h": "c",
+        "stdio.h": "c"
     }
 }
