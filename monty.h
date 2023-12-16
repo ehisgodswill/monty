@@ -5,6 +5,7 @@
 #include <sys/types.h>
 #include <unistd.h>
 #include <fcntl.h>
+#include <string.h>
 
 /**
  * struct stack_s - doubly linked list representing a stack (or queue)
@@ -54,7 +55,6 @@ typedef struct instruction_s
 } instruction_t;
 
 int execute(char *content, stack_t **stack, unsigned int counter, FILE *file);
-void print_error(char *estr);
 /* Array */
 void f_push(stack_t **head, unsigned int counter);
 void f_pop(stack_t **head, unsigned int counter);
