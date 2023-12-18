@@ -1,5 +1,4 @@
 #include "monty.h"
-#define _GNU_SOURCE
 data_t data = {NULL, NULL, NULL, 0};
 /**
 * main - monty code interpreter
